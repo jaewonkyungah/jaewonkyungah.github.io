@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
-    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v7w97i3ng4"></script>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=1cdr8taex1"></script>
     <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 
     <meta property="og:title" content="재원&경아 모바일청첩장"/>
@@ -379,11 +379,11 @@
     <script>
         <!--지도띄우기, 마커표시-->
         var map = new naver.maps.Map('map', {
-            center: new naver.maps.LatLng(37.52418380246377, 126.87550473500565),
+            center: new naver.maps.LatLng(37.521963128262485, 126.92706410371927),
             zoom: 18
         });
         var marker = new naver.maps.Marker({
-            position: new naver.maps.LatLng(37.52418380246377, 126.87550473500565),
+            position: new naver.maps.LatLng(37.521963128262485, 126.92706410371927),
             map: map
         });
         var map = new naver.maps.Map('map', mapOptions);
@@ -392,7 +392,7 @@
     <script type="text/javascript">
         <!--카카오톡 공유하기-->
         function sendLink() {
-            Kakao.init("ed1d8ab676c18ce42eb9c5c3e7484b08");
+            Kakao.init("1a99413df004763c2305279ac6431b76");
 
             Kakao.Link.createDefaultButton({
                 container: '#create-kakao-link-btn',
