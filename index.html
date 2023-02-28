@@ -1,0 +1,464 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weeding</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=v7w97i3ng4"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+    <meta property="og:title" content="재원&경아 모바일청첩장"/>
+    <meta property="og:image" content="https://kihoonanddoyeon.github.io/img/banner/img1.jpeg"/>
+    <meta property="og:url" content="https://kihoonanddoyeon.github.io/"/>
+    <meta property="og:site_name" content="기훈&도연 모바일청첩장"/>
+    <meta property="og:description" content="2022.10.22(토) 14:00 로프트가든344"/>
+
+    <!--아이폰 전화 바로 연결방지-->
+    <meta name="format-detection" content="telephone=no">
+    <!--google icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo-img">
+                                <!--a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a-->
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9">
+
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/ header-->
+
+    <!-- slider_area -->
+    <div class="slider_area ">
+        <div class="slider_area_inner slider_bg_1 overlay2">
+            <div class="slider_text text-center">
+                <div class="text_inner">
+                    <img src="img/banner/ornaments.png" alt="">
+                    <h4>Jaewon & KyungAh</h4>
+                    <h3>29 Apr 2023<br></h3>
+                    <span>Getting married!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ slider_area -->
+
+    <!-- wedding_countdown -->
+    <div class="weeding_countdown_area">
+        <div class="flowaers_top d-none d-lg-block">
+            <img src="img/banner/flower-top.png" alt="">
+        </div>
+        <div class="flowaers_bottom d-none d-lg-block">
+                <img src="img/banner/flower-bottom.png" alt="">
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <span>4:50 PM. 29. April. 2023</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div id="clock" class="countdown_area counter_bg ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ wedding_countdown -->
+
+    <!-- our_love-story -->
+    <div class="love_story_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <h3>He & She</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_lover_story text-center">
+                        <div class="story_thumb">
+                            <img src="img/story/groom.jpg" alt="" class="img-responsive" style="border-radius:150px">
+                        </div>
+                        <span>신랑</span>
+                        <h3>김재원</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_lover_story text-center">
+                        <div class="story_thumb">
+                            <img src="img/story/bride.jpg" alt="" class="img-responsive" style="border-radius:150px">
+                        </div>
+                        <span>신부</span>
+                        <h3>김경아</h3>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="weding_time_line text-center">
+                        <div class="single_time_line">
+                            <h3>초대합니다</h3>
+                            <p>봄의 그대는 벚꽃이었고 <br>
+                                여름의 그대는 바람이었으며<br>
+                                가을의 그대는 하늘이었고<br>
+                                겨울의 그대는 하얀 눈이었다.<br>
+                                그대는 언제나<br>
+                                행복 그 자체였다. <br>
+                                -강현욱 '사계'중 <br><br>
+                                앞으로 함께 나아갈 수 많은 계절<br>
+                                그 시작의 자리에 초대합니다.<br>
+                                부디 귀한 걸음으로 오셔서 축복해주세요. </p>
+                        </div>
+                        <div class="single_time_line">
+                            <h3>일시</h3>
+                            <p>2023년 04월 29일 토요일 오후 4시 50분</p>
+                        </div>
+                        <div class="single_time_line">
+                            <h3>장소</h3>
+                            <p>여의도 웨딩 여율리 5층 라온제나홀</p>
+                        </div>
+                        <div class="single_time_line">
+                            <h3>예식 및 연회 안내</h3>
+                            <p>예식은 총 70분동안 진행되며, 식사는 뷔페식입니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ our_love-story -->
+
+    <!-- gallery_area  -->
+    <div class="gallery_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <h3>Photos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--세로-->
+        <div class="owl-carousel owl-theme" style="overflow-y: hidden;">
+            <div class="item4">
+                <img src ="img/gallery/imgthumb02.jpg"/>
+            </div>
+            <div class="item3">
+                <img src ="img/gallery/imgthumb01_e.png"/>
+            </div>
+            <div class="item6">
+                <img src ="img/gallery/imgthumb03.jpg"/>
+            </div>
+            <div class="item7">
+                <img src ="img/gallery/imgthumb04.jpg"/>
+            </div>
+            <div class="item9">
+                <img src ="img/gallery/imgthumb05_e.png"/>
+            </div>
+            <div class="item10">
+                <img src ="img/gallery/imgthumb06_e.png"/>
+            </div>
+            <div class="item14">
+                <img src ="img/gallery/imgthumb07.jpg"/>
+            </div>
+            <div class="item16">
+                <img src ="img/gallery/imgthumb08.jpg"/>
+            </div>
+            <div class="item17">
+                <img src ="img/gallery/imgthumb09_e.png"/>
+            </div>
+            <div class="item18">
+                <img src ="img/gallery/imgthumb10.jpg"/>
+            </div>
+            <div class="item20">
+                <img src ="img/gallery/imgthumb11.jpg"/>
+            </div>
+            <div class="item21">
+                <img src ="img/gallery/imgthumb12.jpg"/>
+            </div>
+            <div class="item22">
+                <img src ="img/gallery/imgthumb13_e.png"/>
+            </div>
+            <div class="item23">
+                <img src ="img/gallery/imgthumb14.jpg"/>
+            </div>
+            <div class="item24">
+                <img src ="img/gallery/imgthumb15.jpg"/>
+            </div>
+        </div>
+    </div>
+    <!--/ gallery_area  -->
+    <!-- program_details -->
+    <div class="program_details_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <img src="img/banner/flowers.png" alt="">
+                        <h3>Contact us</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_program program_bg_3 text-center">
+                        <div class="program_inner ">
+                            <h3>재원 & 경아에게 축하인사 전하기</h3>
+                            <img src="img/program_details/ornaments.png" alt="">
+                            <p> <h4>
+                            신랑 김재원  <a href="tel:010-3255-0372" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-3255-0372" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountJw();" style="color:#C78665;">마음전하기</a><br>
+                            신부 김경아  <a href="tel:010-3153-8224" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-3153-8224" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountKa()" style="color:#C78665;">마음전하기</a></h4>
+                            </p>
+                            <h3>축하메세지 남기기</h3>
+                            <p>
+                            <img src="img/icon/history_edu_black_48dp.svg"/><a href="https://forms.gle/5uZyJJCXwtNzw9wm6" style="font-family: 'onMin';">클릭!</a>
+                            </p>
+                            <img src="img/program_details/ornaments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="single_program program_bg_2 text-center">
+                        <div class="program_inner ">
+                            <h3>혼주에게 축하인사 전하기</h3>
+                            <img src="img/program_details/ornaments.png" alt="">
+                            <p><h4>
+                            신랑 부 김종인  <a href="tel:010-8538-0372" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-8538-0372" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountJwF();" style="color:#C78665;">마음전하기</a><br>
+                            신랑 모 박성미  <a href="tel:010-9257-0372" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-9257-0372" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountJwM()" style="color:#C78665;">마음전하기</a></h4>
+                            </p>
+                            <p> <h4>
+                            신부 부 김춘복  <a href="tel:010-3520-4768" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-3520-4768" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountKaF();" style="color:#C78665;">마음전하기</a><br>
+                            신부 모 안성자  <a href="tel:010-9210-8520" class="call" style="color:#C78665;">전화하기</a> |<a href="sms:010-9210-8520" class="sms" style="color:#C78665;"> 문자하기</a> | <a href="javascript:accountKaM()" style="color:#C78665;">마음전하기</a></h4>
+                            </p>
+                            <img src="img/program_details/ornaments.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--location area-->
+    <div>
+        <div class="location_top text-center">
+            <img src="img/banner/flowers.png" alt="">
+            <h2>Location</h2>
+            <p><h3 style="color:#C78665">웨딩여율리</h3>
+            서울특별시 영등포구 국제금융로6길 26 한국노총빌딩 5층 웨딩여율리<br>02-6277-0777~9
+            </p>
+        </div>
+        <div class="location_top text-center">
+            <h3 style="color:#C78665">대중교통 안내</h3>
+            <p><h4>지하철 : <br>
+                5호선, 9호선 "여의도역" 5번 출구 도보 3분 거리<br><br>
+                버스 : <br>
+                여의도역 or 한국거래소 (구 증권선물거래소) 하차 도보 3분 거리<br>
+            </h4></p>
+        </div>
+        <div class="location_top text-center">
+            <h3 style="color:#C78665">주차 안내</h3>
+            <p><h4>건물주차장 무료주차 2시간 <br>
+            (주차요원이 안내해 드립니다)<br><br>
+            네비게이션 : "웨딩여율리" 또는 "노총회관"<br><br>
+            </h4></p>
+        </div>
+        <div class="d-sm-block">
+            <!--map-->
+            <div id="map" style="width:100%;height:400px;"></div>
+        </div>
+    </div>
+    <div class="text-center">
+        <li><br><br><a id="create-kakao-link-btn" href="javascript:sendLink()">
+            <img src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" alt="카카오링크 보내기 버튼"/>
+        </a></li>
+        <li>카카오톡 공유하기</li>
+    </div>
+
+<!-- ================ contact section end ================= -->
+   <!-- footer_start -->
+   <footer class="footer">
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p class="copy_right text-center" style="font-family: 'Cafe24Oneprettynight', 'onMin';">
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved,
+                        <br> 예나 & <a href="https://colorlib.com" target="_blank" style="font-family: 'Cafe24Oneprettynight';">Colorlib</a> 가 만듬 =)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer_end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+        $('#clock').countdown('2023/04/29', function (event) {
+            $(this).html(event.strftime(
+                '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>Days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'
+            ));
+        });
+    </script>
+
+    <script>
+        <!--지도띄우기, 마커표시-->
+        var map = new naver.maps.Map('map', {
+            center: new naver.maps.LatLng(37.52418380246377, 126.87550473500565),
+            zoom: 18
+        });
+        var marker = new naver.maps.Marker({
+            position: new naver.maps.LatLng(37.52418380246377, 126.87550473500565),
+            map: map
+        });
+        var map = new naver.maps.Map('map', mapOptions);
+    </script>
+
+    <script type="text/javascript">
+        <!--카카오톡 공유하기-->
+        function sendLink() {
+            Kakao.init("ed1d8ab676c18ce42eb9c5c3e7484b08");
+
+            Kakao.Link.createDefaultButton({
+                container: '#create-kakao-link-btn',
+                objectType: 'feed',
+                content: {
+                    title: '재원&경아 모바일청첩장',
+                    description: '2022.10.22(토) 14:00 로프트가든344',
+                    imageUrl:
+                        'https://kihoonanddoyeon.github.io/img/banner/img1.jpeg',
+                    link: {
+                        mobileWebUrl: 'https://kihoonanddoyeon.github.io/',
+                        webUrl: 'https://kihoonanddoyeon.github.io/',
+                    },
+                },
+                buttons: [
+                    {
+                        title: '재원&경아 모바일청첩장 보기',
+                        link: {
+                            mobileWebUrl: 'https://kihoonanddoyeon.github.io/',
+                            webUrl: 'https://kihoonanddoyeon.github.io/',
+                        },
+                    },
+                ],
+            })
+        }
+    </script>
+    <script type="text/javascript">
+        function accountJw() {
+            copyToClipboard('신한 110007770165');
+            alert('신한은행 110-007-770165 김재원 계좌를 복사하였습니다.');
+        };
+        function accountJwF() {
+            copyToClipboard('신한 110-191-256547');
+            alert('신한은행 110-191-256547 김종인 계좌를 복사하였습니다.');
+        };
+        function accountJwM() {
+            copyToClipboard('신한 110059687472');
+            alert('신한은행 110-059-687472 박성미 계좌를 복사하였습니다.');
+        };
+
+        function accountKa() {
+            copyToClipboard('우리 1002038717239');
+            alert('우리은행 1002-038-717239 김경아 계좌를 복사하였습니다.');
+        };
+        function accountKaF() {
+            copyToClipboard('국민 619210368538');
+            alert('국민은행 619-21-0368-538 김춘복 계좌를 복사하였습니다.');
+        };
+        function accountKaM() {
+            copyToClipboard('국민 63780104174214');
+            alert('국민은행 637801-04-174214 안성자 계좌를 복사하였습니다.');
+        };
+
+        function copyToClipboard(val) {
+            var t = document.createElement("textarea");
+            document.body.appendChild(t);
+            t.value = val;
+            t.select();
+            document.execCommand('copy');
+            document.body.removeChild(t);
+        };
+    </script>
+</body>
+
+</html>
